@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+import AuthForm from '../features/AuthForm';
 
-const AuthPage = () => {
+const AuthPage: React.FC = () => {
+
   return (
-    <div>AuthPage</div>
+    <><AuthForm/></>
   )
 }
 
