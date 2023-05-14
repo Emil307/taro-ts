@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import SignUpForm from '../features/SignUpForm';
 
 const SignUpPage: React.FC = () => {
   return (
-    <div>SignUp</div>
+    <div><SignUpForm/></div>
   )
 }
 
